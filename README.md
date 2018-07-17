@@ -1,6 +1,17 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic Arcade Game Project
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* [Instructions](#Instructions)
+* [Dependencies](#Dependencies)
+
+## Instructions
+
+* Use Up, Down, Left, Right arrow keys to control the character to
+* walk across the road and reach the river at the top, avoiding all
+* the cockroaches passing through. Colliding with any cockroach will
+* cost 1 life. You have 3 lives at the beginning of the game.
+
+## Dependencies
+
+* [sweetalert.min.js](https://sweetalert.js.org/)
